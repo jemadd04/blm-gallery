@@ -31,7 +31,7 @@ const Maindiv = styled.div`
 export const UnsplashImage = ({url, key, name, link, desc}) => {
     return (
         <Maindiv>
-            <Img src={url} key={key} alt="{desc}" />
+            <Img src={url} key={key} alt={desc} />
             <Credit>Photo by <a href={link} target="_blank">{name}</a> on <a href="https://unsplash.com/" target="_blank">Unsplash</a></Credit>
         </Maindiv>
     )
